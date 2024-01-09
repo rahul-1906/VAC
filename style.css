@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    background-image: url('https://images.shiksha.com/mediadata/images/1492060637phpwM6XKM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+    margin-top: 200px;
+}
+
+table{  
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+font-size: x-large;
+color: rgba(40, 39, 39, 0.902);
+
+
+}

@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
     <title>Coder Form</title>
 </head>
+
 <body>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration form </title>
+    </head>
+
+    <body>
+        <center>
+            <form action="">
+
+                <table>
+                    <tr>
+                        <th colspan="2"> Coder Form</th>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <td><input type="text" placeholder="  Name"></td>
+                    </tr>
+                    <tr>
+                        <th>Last Name</th>
+                        <td><input type="text" placeholder="  Surname "></td>
+                    </tr>
+                    <tr>
+                        <th>Contact No.</th>
+                        <td><input type="text" placeholder="  Contact "></td>
+                    </tr>
+
+                    <tr>
+                        <th>Address</th>
+                        <td><textarea rows="10" cols="20" placeholder=" Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td><input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td><input type="checkbox" name="python">Python
+                            <input type="checkbox" name="java">Java
+                            <input type="checkbox" name="php">PHP
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Date_Of_Birth</th>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <th>Resume</th>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <button onclick="myFunction()"> Submit</button>
+
+                        </th>
+                    </tr>
+
+
+                </table>
+            </form>
+        </center>
+
+    </body>
+
+    </html>
+
+    <script>
+        function myFunction(){
+            alert("Your Response has been saved 🫡");
+        };
+
+    </script>
 </body>
+
 </html>
